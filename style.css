@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-size: 62.5%;
+}
+.main{
+    width: 100%;
+    height: 100%
+}
+
+.navbar{
+    width: 120rem;
+    height: 7.5rem;
+    margin: auto;
+}
+
+.icon{
+    width: 20rem;
+    float: left;
+    height: 7rem;
+}
+
+.logo{
+    color: rgb(10, 73, 78);
+    font-size: 4.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    padding-left: 2rem;
+    float: left;
+    padding-top: 1rem;
+}
+
+.menu{
+    width: 40rem,;
+    float: left;
+    height: 7rem;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 6.2rem;
+    margin-top: 2.7rem;
+    font-size: 1.4rem;
+}
+
+ul li a{
+    text-decoration: solid;
+    color:black;
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: aqua;
+}
+
+.search{
+    width: 33rem;
+    float: left;
+    margin-left: 27rem;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 20rem;
+    height: 4rem;
+    background:rgb(39, 197, 202);
+    border: 1px black;
+    margin-top: 13px;
+    color: black;
+    border-right: none;
+    font-size: 1.6rem;
+    float: left;
+    padding: 1rem;
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
+.btn{
+    width: 10rem;
+    height: 4rem;
+    background: whitesmoke;
+    border: 2px solid black;
+    margin-top: 1.3rem;
+    color:rgb(10, 73, 78);
+    font-size: 1.5rem;
+    border-bottom-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 120rem;
+    height: auto;
+    margin: auto;
+    color: black;
+    font-weight: bolder;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 2rem;
+    padding-bottom: 2.5rem;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: 0.12rem;
+    line-height: 3rem;
+    font-size: 1rem;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 5rem;
+    padding-left: 2rem;
+    margin-top: 9%;
+    letter-spacing: .2rem;
+}
+.content .cn{
+    width: 16rem;
+    height: 4rem;
+    background: rgb(10, 73, 78);
+    border: aqua;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: aqua;
+    transition: 0.3s ease;
+}
+
+.cn:hover{
+    background-color: rgb(236, 11, 11);
+
+}
+
+.form{
+    width: 25rem;
+    height: 35rem;
+    background: linear-gradient(to top rgba(255, 255, 255, 0.8)50%,rgba(255, 255, 255, 0.8)50%);
+    top: -2rem;
+    left: 87rem;
+    border-radius: 1rem;
+    padding: 2.5rem;
+}
+.form h2{
+    width: 22rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(10, 73, 78);
+    background-color: whitesmoke;
+    font-size: 2.2rem;
+    border-radius: 1rem;
+    margin: 0.2rem;
+    padding: 0.8rem;
+}
+.form input{
+    width: 24rem;
+    height: 3.5rem;
+    background: transparent;
+    border-bottom: .1rem solid rgb(10, 73, 78);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    margin-top: 3rem;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: black;
+    font-family: Arial;
+}
+.btnn{
+    width: 24rem;
+    height: 4rem;
+    background: rgb(109, 182, 187);
+    border: none;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: black;
+}
+.btnn:hover{
+    background-color: whitesmoke;
+    color: aqua;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+.form .link a{
+    color: rgb(71, 183, 190);
+}
+.footer{
+    padding: 1rem 0;
+    background-color: transparent;
+}
+.footer .copyright{
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 1.3rem;
+    color: black;
+}
+
+  @media(max-width:998px) {
+     html {
+        font-size: 55%;
+      }
+  }
+  @media(max-width:768px) {
+      html {
+          font-size: 45%;
+      }
+  }
